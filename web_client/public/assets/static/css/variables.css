@@ -3,4 +3,18 @@
     --black-level-2: #242424;
     --black-level-3: #343434;
     --black-level-4: #202020;
+
+    --semi-transparent-level-1: #eeeeee15;
+    --semi-transparent-level-2: #eeeeee23;
+
+    --shadow-level-1: 0 1rem 1rem 0 rgba(0, 0, 0, .1);
+    --shadow-level-2: 0 2rem 2rem 0 rgba(0, 0, 0, .1);
+    --shadow-level-3: 0 3rem 3rem 0 rgba(0, 0, 0, .1);
+    --shadow-level-4: 0 4rem 4rem 0 rgba(0, 0, 0, .1);
+    --shadow-level-5: 0 .5rem .5rem 0 rgba(0, 0, 0, .1);
+
+    --border-radius-1: 3px;
+    --border-radius-2: 6px;
+    --border-radius-3: 9px;
+    --border-radius-4: 12px;
 }
