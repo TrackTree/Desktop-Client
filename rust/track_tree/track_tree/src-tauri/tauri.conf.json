@@ -1,0 +1,42 @@
+{
+  "build": {
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "track_tree",
+    "version": "0.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "windows": [
+      {
+        "title": "Track Tree",
+        "width": 1366,
+        "height": 768
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.tauri.dev",
+      "icon": [
+        "icons/favicon-32x32.png",
+        "icons/android-chrome-192x192.png",
+        "icons/android-chrome-512x512.png",
+        "icons/icon.icns",
+        "icons/favicon.ico"
+      ]
+    }
+  }
+}
