@@ -257,13 +257,14 @@ html {
 .search-area {
   width: 100%;
   padding: 1rem;
+  background: var(--black-level-1);
 }
 
 .search-area input {
   width: 100%;
   background: #2c2c2c;
   color: #c4c4c4;
-  font-size: 18px;
+  font-size: 12px;
   letter-spacing: 1.2px;
   padding: 12px;
   border: none;
