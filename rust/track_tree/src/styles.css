@@ -20,10 +20,14 @@ html {
 
 ::-webkit-scrollbar {
   width: 3px;
-  background: var(--black-level-1);
+  background: var(--asparagus);
 }
 
 ::-webkit-scrollbar-thumb {
+  background: var(--black-level-1);
+}
+
+::-webkit-scrollbar-track {
   background: var(--asparagus);
 }
 
@@ -226,7 +230,7 @@ html {
   justify-content: space-between;
   background: var(--black-level-2);
   border-top: 6px solid var(--asparagus);
-  box-shadow: 0rem 3rem 3rem 2rem rgba(119, 173, 120, 0.9);
+  box-shadow: 0rem 3rem 9rem 2rem rgba(119, 173, 120, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -257,20 +261,28 @@ html {
 }
 
 .search-area {
-  width: 100%;
-  padding: 1rem;
+  padding: 9px;
+  position: relative;
+  display: flex;
+  gap: 1rem;
   background: var(--black-level-1);
 }
 
+.search-area svg {
+  color: var(--asparagus);
+  padding: 6px;
+  font-size: 2.3rem;
+}
+
 .search-area input {
-  width: 100%;
+  width: 900px;
   background: #2c2c2c;
   color: #c4c4c4;
   font-size: 12px;
   letter-spacing: 1.2px;
-  padding: 12px;
   border: none;
-  border-radius: 10px;
+  border-radius: 21px;
+  padding: 12px;
   opacity: .7;
   transition: .2s all ease;
 }
@@ -285,12 +297,9 @@ html {
 
 .search-area input:focus {
   outline: none;
-  box-shadow: var(--shadow-level-2);
-  border-right: 9px solid var(--asparagus);
 }
 
 .drag-area {
-  box-shadow: inset -4rem -4rem 4rem 1rem rgba(0, 0, 0, .2);
   background: var(--black-level-1);
   color: #a1a1a1;
   width: 100%;
@@ -312,7 +321,9 @@ html {
 /* Upload content list */
 .upload-list {
   padding: 1rem;
+  box-shadow: 14rem -4rem 9rem 9rem rgba(0, 0, 0, 0.1);
   overflow-y: scroll;
+
 }
 
 .upload-section-title {
