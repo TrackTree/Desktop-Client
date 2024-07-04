@@ -225,6 +225,8 @@ html {
   align-items: center;
   justify-content: space-between;
   background: var(--black-level-2);
+  border-top: 6px solid var(--asparagus);
+  box-shadow: 0rem 3rem 3rem 2rem rgba(119, 173, 120, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
